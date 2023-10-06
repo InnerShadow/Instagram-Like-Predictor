@@ -1,6 +1,3 @@
-import requests
-from PIL import Image
-from io import BytesIO
 from Instagram.Get_pictures import *
 
 def __main__():
