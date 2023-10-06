@@ -5,7 +5,11 @@ import subprocess as sp
 
 def get_profile_photos(username):
 
-    cmd = ' '.join([f'python3 -m instaloader {username}'])
+    cmd = ' '.join(
+        [
+            f'python3 -m instaloader {username}'
+        ]
+    )
 
     pipe = sp.Popen(cmd, shell = True)
 
