@@ -1,0 +1,1 @@
+This folder will contain photos and data of all people from the training sample.

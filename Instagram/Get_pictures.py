@@ -5,9 +5,11 @@ import subprocess as sp
 
 def get_profile_photos(username):
 
+    folfer = f"Data/Training_Data/{username}"
+
     cmd = ' '.join(
         [
-            f'python3 -m instaloader {username}'
+            f'python3 -m instaloader {username} --dirname-pattern {folfer}'
         ]
     )
 
