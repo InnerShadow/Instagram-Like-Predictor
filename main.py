@@ -1,4 +1,4 @@
-from Instagram.Get_pictures import *
+from Instagram.Get_pictures import get_profile_photos
 
 def __main__():
     username = "_asha.n"
