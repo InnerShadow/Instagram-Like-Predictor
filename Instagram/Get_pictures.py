@@ -1,5 +1,3 @@
-from Data.data import *
-
 import sys
 import subprocess as sp
 
